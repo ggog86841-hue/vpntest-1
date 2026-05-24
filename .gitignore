@@ -1,25 +1,110 @@
 ```
+# Android build artifacts
+*.apk
+*.aar
+*.jar
+*.class
+
+# Android build directories
+build/
+.gradle/
+*/build/
+
+# Android studio files
+*.iml
+*.iws
+*.idea/
+.idea/
+
 # Gradle
 .gradle/
-build/
-dist/
+!gradle.properties
+!gradlew
+!gradlew.bat
 
-# Dependencies
-.libs/
+# Local configuration file (sdk path, etc)
+local.properties
 
-# Logs
+# Log Files
 *.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# IDE
-.idea/
-.vscode/
-
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART (Android Runtime)
+*.dex
+
+# Java class file
+*.class
+
+# Generated files
+gen/
+bin/
+dist/
+
+# Android Studio navigation editor temp files
+.navigation/
+
+# Android Studio profiler temp files
+*.keystore
+*.jks
+
+# Project backup
+*.backup
+
+# Coverage reports
+coverage/
+*.gcov
+*.lcov
+*.profdata
+
+# Unit test reports
+test-results/
+*.xml
+
+# Local configuration
+local.properties
+
+# Android cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Python related (if any Python scripts in project)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Node.js (if any Node.js tools used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database export
+*.db-shm
+*.db-wal
+
+# IDE specific
+.vscode/
+.settings/
 ```
