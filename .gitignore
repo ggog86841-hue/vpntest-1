@@ -1,0 +1,25 @@
+```
+# Gradle
+.gradle/
+build/
+dist/
+
+# Dependencies
+.libs/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+```
